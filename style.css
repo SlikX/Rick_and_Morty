@@ -1,0 +1,73 @@
+h1 {
+    text-align: center;
+    background-color: #292a2b;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #F3EEEA;
+}
+h2 {
+    margin: 10px;
+    background-color: #212326;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+p {
+    margin: 10px;
+    background-color: #212326;
+    color: #F3EEEA;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+body {
+    background: #45474B;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+img {
+    display: block;
+    border-radius: 10px;
+}
+ul.episodes {
+    padding: 10px 10px;
+}
+ul.episodes li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.character-container {
+    display: flex;
+    margin: 10px;
+}
+.character-container img {
+    border-radius: 10px;
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+}
+.episodes-container ul.episodes a {
+    color: #161A30;
+    text-decoration: none;
+    background-color: #EBE3D5;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.character-details {
+    margin-left: 20px;
+}
+.episodes-container {
+    margin-left: 10px;
+    margin-top: 10px;
+    max-height: 175px;
+    overflow-y: auto;
+    background-color: darkgray;
+    border-radius: 10px;
+}
+
